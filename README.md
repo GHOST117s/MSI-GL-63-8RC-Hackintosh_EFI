@@ -56,3 +56,19 @@ Brightness ✅
 - Boot Mode UEFI
 - SATA Mode: AHCI
 - Hyper-Threading
+
+For more about BIOS Follow This Guide For Detailed Info
+
+https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#intel-bios-settings
+
+
+
+
+
+
+
+
+
+
+## Thanks 
+- [Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/)
