@@ -126,24 +126,26 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+		<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
+				<key>AAPL,GfxYTile</key>
+				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
-				<data>AACSPg==</data>
+				<data>CQClPg==</data>
+				<key>alctcsel</key>
+				<data>AQAAAA==</data>
 				<key>device-id</key>
 				<data>kj4AAA==</data>
 				<key>enable-lspcon-support</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con2-busid</key>
-				<data>AgAAAA==</data>
+				<key>framebuffer-con2-alldata</key>
+				<data>AgIKAAAIAACHAQAA</data>
 				<key>framebuffer-con2-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con2-has-lspcon</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con2-pipe</key>
-				<data>EgAAAA==</data>
-				<key>framebuffer-con2-type</key>
-				<data>AAgAAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 			</dict>
@@ -852,7 +854,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>alcid=15 watchdog=0 igfxonln=1 agdpmod=vit9696 -vi2c-force-polling -igfxblr -noDC9 igfxfw=2 igfxagdc=0 -wegnoegpu uia_exclude=USR1;USR2</string>
+				<string>-v alcid=15 -wegnoegpu watchdog=0 agdpmod=vit9696 -vi2c-force-polling -noDC9 igfxfw=2 igfxagdc=0  igfxonln=1 -igfxbls -igfxblt -igfxcdc -igfxdbeo uia_exclude=USR1;USR2</string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
